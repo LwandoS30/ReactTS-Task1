@@ -1,0 +1,34 @@
+.section-container{
+    margin-top: 70px;
+    background: url(../../assets/asserts2/images/1.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+    color: #fff;
+    margin-bottom: -90px;
+}
+.section-container h5, .section-container .sign-in{
+    display: flex;
+    justify-content: space-between;
+    right: 0;
+}
+.section-container h2{
+    font-size: xx-large;
+    padding-bottom: 40px 
+}
+.section-container  input {
+    background-color: orangered;
+    color: #fff;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+}
+.section-container input:hover{
+   background-color: rgb(150, 128, 73);
+}

@@ -1,0 +1,50 @@
+footer{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    bottom: 0;
+    background-color: rgb(12, 13, 23);
+    color: #fff;
+}
+.footer-container{
+    margin: auto;
+}
+.image-button{
+    display: flex;
+    background-image: url(../../assets/asserts2/images/sweet-Cherry.jpg);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+.image-button input{
+    width: 80px;
+    height:30px;
+}
+.container-menu , h3, h4{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vitamin-container, h3, h4, ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.ore-anic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.opening-hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quick-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 

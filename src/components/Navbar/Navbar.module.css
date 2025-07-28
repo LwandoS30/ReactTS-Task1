@@ -1,0 +1,56 @@
+nav{
+    position: absolute;
+    top: 0;
+    height: 80px;
+    width: 100vw;
+    background-color: rgba(1, 5, 26, 0.893);
+    border-radius: none;
+}
+nav img, h2{
+    width: 40px;
+    height: 40px;
+}
+.logo{
+    display: flex;
+    font-size: xx-small;
+    margin-top: 10px;
+}
+.content{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: xx-small;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.link:hover{
+    color: rgb(222, 124, 4);
+}
+.profile-icon{
+    display: flex;
+}
+.profile-icon img{
+    background-color: rgba(83, 78, 107, 0.54);
+    gap: 5px;
+    width: 30px;
+    height: 30px;
+}
+.profileicon{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+.cart{
+    width: 35px;
+    height: 35px;
+}

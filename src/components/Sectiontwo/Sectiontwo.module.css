@@ -1,0 +1,59 @@
+.sectiontwo-container{
+    width: 100vw;
+    padding: 10px;
+    background-color: rgb(20, 23, 35);
+    color: #fff;
+    margin-top: -9.9px;
+    margin-bottom: -9.9px;
+}
+.sectiontwo-container input, .half-orange{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 60px;
+    gap: 50px;
+}
+.sectiontwo-container h2{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: -80px;
+    align-self: center;
+    justify-content: center;
+}
+h2{
+    width: 50%;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.half-orange{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+p{
+    width: 50%;
+    font-weight: 400;
+    padding-right: 5px;
+}
+ul{
+    list-style: none;
+}
+.juicer{
+    border-radius: 8px;
+    width: 50%;
+    width: 350px;
+    height: 350px;
+}  
+.sectiontwo-container input{
+    background-color:orangered;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+.sectiontwo-container input:hover{
+   background-color: rgb(150, 128, 73);
+}
