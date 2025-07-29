@@ -10,7 +10,7 @@ footer{
 .footer-container{
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .sub-sec-two h3{
     width: 100%;
