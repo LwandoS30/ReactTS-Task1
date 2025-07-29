@@ -11,10 +11,15 @@
     color: #fff;
     margin-bottom: -90px;
 }
-.section-container h5, .section-container .sign-in{
+.sub-head{
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    right: 0;
+    padding: 10px;
+}
+.section-container h5{
+    display: flex;
+    justify-content: space-between;
 }
 .section-container h2{
     font-size: xx-large;

@@ -5,46 +5,63 @@ footer{
     bottom: 0;
     background-color: rgb(12, 13, 23);
     color: #fff;
+    padding: 20px;
 }
 .footer-container{
     margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub-sec-two h3{
+    width: 100%;
+    align-self: center;
+    margin-right: -240px;
+    margin-top: -200px;
+    padding: 10px;
 }
 .image-button{
-    display: flex;
     background-image: url(../../assets/asserts2/images/sweet-Cherry.jpg);
     background-repeat: no-repeat;
     width: 250px;
     height: 250px;
+    
+}
+.sub-sec-two{
+    display: flex;
+    padding: 20px;
+}
+.sub-sec-two ul{
+    list-style: none;
+    align-items: start;
+}
+.sub-sec-two h4{
+    align-self: center;
 }
 .image-button input{
     width: 80px;
     height:30px;
-}
-.container-menu , h3, h4{
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.vitamin-container, h3, h4, ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-.ore-anic{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
 
 }
-.opening-hours{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container-menu{
+    width: 100%;
 }
-.quick-links{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} 
+  
+.container-menu, .vitamin-container, .ore-anic{
+    width: 33%;
+    padding: 5px;
+    align-items: start;
+    li{
+        margin-left: -40px;
+    }
+}
+.opening-hours{
+    list-style: none;
+    margin : 10px;
+    gap: 30px;
+}
+.opening-hours li{
+
+}

@@ -7,22 +7,20 @@
     margin-bottom: -9.9px;
 }
 .sectiontwo-container input, .half-orange{
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 60px;
     gap: 50px;
 }
 .sectiontwo-container h2{
-    width: 50%;
     margin-left: 25%;
     margin-top: 5%;
     margin-bottom: -80px;
     align-self: center;
     justify-content: center;
 }
-h2{
-    width: 50%;
+.sectiontwo-container h2{
     font-weight: bolder;
     font-size: xx-large;
 }
@@ -32,12 +30,12 @@ h2{
     border-radius: 50%;
     object-fit: cover;
 }
-p{
+.half-orange p{
     width: 50%;
     font-weight: 400;
     padding-right: 5px;
 }
-ul{
+.half-orange ul{
     list-style: none;
 }
 .juicer{
@@ -56,4 +54,9 @@ ul{
 }
 .sectiontwo-container input:hover{
    background-color: rgb(150, 128, 73);
+}
+.sectiontwo-container ul{
+    display: flex;
+    list-style: none;
+   
 }
